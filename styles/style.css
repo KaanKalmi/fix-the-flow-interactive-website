@@ -8,6 +8,7 @@ html {
     --second-color: #519879;
     --accent-color: #FB8B24;
     --btn-radius: 2.5em;
+    --btn-shadow:#716088;
     --section-radius: .25em;
     --icon-radius: 3.25em;
     --cap: capitalize;
@@ -15,6 +16,7 @@ html {
     --chubby: 600;
     --btn-hover: brightness(120%);
     --btn-active: brightness(80%);
+    scroll-behavior: smooth;
 }
 
 body {
@@ -24,11 +26,10 @@ body {
     font-family: 'halton-regular', sans-serif;
 }
 
-h1,
-h3 {
+h1, h3 {
     font-family: 'halton-bold', sans-serif;
     font-weight: var(--chubby);
-
+    text-align: center;
     & span {
         color: var(--accent-color);
         font-weight: var(--fat);
@@ -36,15 +37,21 @@ h3 {
 }
 
 button{
+    display: block;
     border-radius: var(--btn-radius);
     background-color: var(--primary-color);
     color: var(--text-color);
     border-color: var(--primary-color);
-    padding: 0.2em 1em 0.2em 1em;
-    & a{
+    padding: 0.5em 1.2em 0.5em 1.2em;
+    border-width: 0;
+    font-weight: var(--chubby);
+    box-shadow: 0px 0px 5px var(--btn-shadow);
+
+        & a{
         text-decoration: none;
         color: var(--text-color);
     }
+
     &:hover{
         filter: var(--btn-hover);
     }
