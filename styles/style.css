@@ -30,12 +30,12 @@ h1, h3 {
     font-family: 'halton-bold', sans-serif;
     font-weight: var(--chubby);
     text-align: center;
-    & span {
-        color: var(--accent-color);
-        font-weight: var(--fat);
-    }
 }
 
+span {
+    color: var(--accent-color);
+    font-weight: var(--fat);
+}
 button{
     display: block;
     border-radius: var(--btn-radius);

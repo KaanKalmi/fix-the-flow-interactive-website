@@ -1,0 +1,158 @@
+@import url(font.css);
+@import url(nav.css);
+
+html {
+    --bg-color: #272932;
+    --text-color: #ecf8f8;
+    --primary-color: #947eb0;
+    --second-color: #519879;
+    --accent-color: #FB8B24;
+    --btn-radius: 2.5em;
+    --btn-shadow:#716088;
+    --section-radius: .25em;
+    --icon-radius: 3.25em;
+    --cap: capitalize;
+    --fat: 800;
+    --chubby: 600;
+    --btn-hover: brightness(120%);
+    --btn-active: brightness(80%);
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'halton-regular', sans-serif;
+}
+
+h1, h3 {
+    font-family: 'halton-bold', sans-serif;
+    font-weight: var(--chubby);
+    text-align: center;
+}
+
+span {
+    color: var(--accent-color);
+    font-weight: var(--fat);
+}
+
+.card{
+    display: block;
+    margin: 1em auto;
+    height: 25em;
+    width: 20em;
+    background-color: var(--primary-color);
+    border: 5px solid var(--second-color);
+    border-radius: 1em;
+}
+
+.red{
+    display: inline-block;
+    margin-left: .5em;
+    margin-right: .5em;
+    background-color: red;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 1em;
+
+    & a{
+        color:black;
+        font-weight: var(--fat);
+        text-decoration: none;
+        padding: 1em;
+    }
+}
+
+.orange{
+    display: inline-block;
+    margin-left: .5em;
+    margin-right: .5em;
+    background-color: orange;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 1em;
+
+    & a{
+        color:black;
+        font-weight: var(--fat);
+        text-decoration: none;
+        padding: 1em;
+    }
+}
+
+.yellow{
+    display: inline-block;
+    margin-left: .5em;
+    margin-right: .5em;
+    background-color: yellow;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 1em;
+
+    & a{
+        color:black;
+        font-weight: var(--fat);
+        text-decoration: none;
+        padding: 1em;
+    }
+}
+
+.green{
+    display: inline-block;
+    margin-left: .5em;
+    margin-right: .5em;
+    background-color: rgb(7, 168, 7);
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 1em;
+
+    & a{
+        color:black;
+        font-weight: var(--fat);
+        text-decoration: none;
+        padding: 1em;
+    }
+}
+
+.light-green{
+    display: inline-block;
+    margin-left: .5em;
+    margin-right: .5em;
+    background-color: lightgreen;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 1em;
+
+    & a{
+        color:black;
+        font-weight: var(--fat);
+        text-decoration: none;
+        padding: 1em;
+    }
+}
+
+.shuffle{
+    animation-name: shuffle;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shuffle{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
