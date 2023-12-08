@@ -1,4 +1,4 @@
-let shuffle = document.querySelector('element');
+let shuffle = document.querySelector('input');
 
 shuffle.addEventListener('click', shuffle)
 shuffle.addEventListener('animationend', shuffle)
