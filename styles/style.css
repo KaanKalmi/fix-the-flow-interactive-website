@@ -1,4 +1,4 @@
-@import url(font.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Serif:opsz@8..144&display=swap');
 @import url(nav.css);
 
 html {
@@ -23,11 +23,11 @@ body {
     margin: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: 'halton-regular', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1, h3 {
-    font-family: 'halton-bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: var(--chubby);
     text-align: center;
 }
