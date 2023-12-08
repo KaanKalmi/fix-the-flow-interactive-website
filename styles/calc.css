@@ -42,6 +42,7 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: absolute;
     background-color: var(--second-color);
     border-radius: var(--section-radius);
     box-shadow: 0 0 1em var(--btn-shadow);
@@ -91,18 +92,79 @@ fieldset{
 
 .shuffle{
     animation-name: shuffle;
-  animation-timing-function: ease-in-out;
-  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-duration:.6s;
   animation-delay: 1s;
   animation-iteration-count: 1;
 }
 
 @keyframes shuffle {
     0% {
-        transform: translateY(0);
+        transform: translate(0);
+    }
+    5% {
+        transform: translate(2em, -2em) rotate(2deg);
+    }
+    10% {
+        transform: translate(5em, -5em) rotate(5deg);
+    }
+    15% {
+        transform: translate(7.5em, -7.5em) rotate(7.5deg);
+    }
+    20% {
+        transform: translate(10em, -10em) rotate(10deg); 
+    }
+    25% {
+        transform: translate(12.5em, -12.5em) rotate(12.5deg);
+    }
+    30% {
+        transform: translate(15em, -15em) rotate(15deg);
+    }
+    35% {
+        transform: translate(17.5em, -17.5em) rotate(17.5deg);
+    }
+    40% {
+        transform: translate(20em, -20em) rotate(20deg);
+    }
+    45% {
+        transform: translate(22.5em, -22.5em) rotate(22.5deg);
+    }
+    50% {
+        transform: translate(25em, -25em) rotate(25deg);
+    }
+    55% {
+        transform: translate(27.5em, -27.5em) rotate(27.5deg);
+    }
+    60% {
+        transform: translate(30em, -30em) rotate(30deg);
+    }
+    65% {
+        transform: translate(32.5em, -32.5em) rotate(32.5deg);
+    }
+    70% {
+        transform: translate(35em, -35em) rotate(35deg);
+    }
+    75% {
+        transform: translate(37.5em, -37.5em) rotate(37.5deg);
+    }
+    80% {
+        transform: translate(40em, -40em) rotate(40deg);
+    }
+    85% {
+        transform: translate(42.5em, -42.5em) rotate(42.5deg);
+    }
+    90% {
+        transform: translate(45em, -45em) rotate(45deg);
+    }
+    95% {
+        transform: translate(47.5em, -47.5em) rotate(47.5deg);
     }
     100% {
-        transform: translateY(-200em); 
+        transform: translate(50, -50em) rotate(50deg); 
     }
+}
+
+.hide {
+    display: none;
 }
 
