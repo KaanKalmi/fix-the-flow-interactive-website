@@ -1,8 +1,8 @@
-let shuffle = document.querySelector('input');
+let interaction = document.querySelector('input')
 
-shuffle.addEventListener('click', shuffle)
-shuffle.addEventListener('animationend', shuffle)
+interaction.addEventListener('click', shuffle)
+interaction.addEventListener('animationend', shuffle)
 
 function shuffle() {
-    shuffle.classList.toggle('shuffle');
+   interaction.classList.toggle('shuffle')
 }

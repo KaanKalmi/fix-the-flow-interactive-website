@@ -49,7 +49,7 @@ span {
     margin: 1em;
     text-align: center;
     height: 25em;
-    width: 12em;
+    width: 15em;
 }
 fieldset{
     border:0;
@@ -57,10 +57,15 @@ fieldset{
 
 & input{
     border: 1px solid;
-    border-radius: .5em;
+    border-radius: .2em;
     padding: 1.25em;
     margin: 0.5em;
     appearance: none;
+    filter: brightness(80%);
+
+    &:active, &:focus{
+        filter: brightness(150%);
+    }
     &.red{
         background-color: red;
         accent-color: red;
@@ -91,20 +96,12 @@ fieldset{
   animation-iteration-count: 1;
 }
 
-@keyframes shuffle{
-    0%{
-        transform: rotate(0deg);
+@keyframes shuffle {
+    0% {
+        transform: translateY(0);
     }
-    25%{
-        transform: rotate(90deg);
-    }
-    50%{
-        transform: rotate(180deg);
-    }
-    75%{
-        transform: rotate(270deg);
-    }
-    100%{
-        transform: rotate(360deg);
+    100% {
+        transform: translateY(-200em);
     }
 }
+
