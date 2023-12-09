@@ -39,7 +39,7 @@ nav {
     }
 }
 
-img {
+.logo {
     position: absolute;
     top: .5em;
     left: 0;

@@ -27,12 +27,17 @@ body {
 }
 
 h1, h3 {
-    font-family: 'Poppins', sans-serif;
     font-weight: var(--chubby);
     text-align: center;
 }
 
-span {
+p{
+    font-weight: var(--chubby);
+    text-align: center;
+    font-size: 1.25em;
+    color: var(--second-color);
+}
+em {
     color: var(--accent-color);
     font-weight: var(--fat);
 }
@@ -54,6 +59,7 @@ a{
 
     &:hover{
         filter: var(--btn-hover);
+        cursor: pointer;
     }
 }
 }
