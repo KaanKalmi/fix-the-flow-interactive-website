@@ -5,47 +5,92 @@ nav {
     padding: 1em;
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: 'halton-regular', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 1.25em;
     position: relative;
     top: 0;
     z-index: 1;
+}
 
-    & ul {
-        display: flex;
-        justify-content: space-between;
-        list-style: none;
-        margin: 0;
-        margin-right: 1em;
-        padding: 0;
-
-        & li {
-            margin-right: .75em;
+@media screen and (min-width: 320px) {
+    nav {
+        & ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
             padding: 0;
-        }
-
-        & li:nth-child(3) {
-            margin-right: 1em;
-        }
-
-        & a {
-            text-decoration: none;
-            color: var(--text-color);
-
-            &:hover {
-                color: var(--accent-color);
+            & li {
+                margin-left: 1em;
+                padding: 0;
+                position: relative;
+                top: 0;
+                z-index: 1;
+                &:first-child {
+                    margin-left: 0;
+                }
+                & a {
+                    text-decoration: none;
+                    color: var(--text-color);
+                    &.new-user {
+                        color: var(--accent-color);
+                    }
+                }
             }
         }
+        .logo {
+            position: absolute;
+            left: 0;
+            height: 60px;
+            width: 60px;
+            margin-left: .25em;
+        }
+
     }
 }
 
-.logo {
-    position: absolute;
-    top: .5em;
-    left: 0;
-    height: 60px;
-    width: 60px;
-    margin-left: 1em;
-    justify-content: left;
-    align-items: start;
+@media screen and (min-width: 768px) {
+    nav {
+        padding: 1.5em;
+        & ul {
+            & li {
+                margin-left: 1.5em;
+            }
+        }
+    }
+    .logo {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    nav {
+        & ul {
+            justify-content: space-between;
+            margin-right: 1em;
+            & li {
+                margin-right: .75em;
+                padding: 0;
+            }
+            & li:nth-child(3) {
+                margin-right: 1em;
+            }
+            & a {
+                text-decoration: none;
+                color: var(--text-color);
+                &:hover {
+                    color: var(--accent-color);
+                }
+                &.new-user:hover {
+                    filter: brightness(125%);
+                }
+            }
+        }
+    }
+    .logo {
+        top: .5em;
+        height: 100px;
+        width: 100px;
+        margin-left: 3em;
+    }
 }
