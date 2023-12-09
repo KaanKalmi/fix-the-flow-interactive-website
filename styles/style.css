@@ -45,8 +45,8 @@ em {
 a{
     text-decoration: none;
     color: var(--text-color);
-
- & button{
+    text-align: center;
+ &.click-me{
     display: block;
     border-radius: var(--btn-radius);
     background-color: var(--primary-color);
