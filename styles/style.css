@@ -36,7 +36,12 @@ span {
     color: var(--accent-color);
     font-weight: var(--fat);
 }
-button{
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+
+ & button{
     display: block;
     border-radius: var(--btn-radius);
     background-color: var(--primary-color);
@@ -47,12 +52,8 @@ button{
     font-weight: var(--chubby);
     box-shadow: 0px 0px 5px var(--btn-shadow);
 
-        & a{
-        text-decoration: none;
-        color: var(--text-color);
-    }
-
     &:hover{
         filter: var(--btn-hover);
     }
+}
 }
