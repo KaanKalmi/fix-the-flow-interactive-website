@@ -31,6 +31,7 @@ h1, h3 {
     font-family: 'poppins', sans-serif;
     font-weight: var(--chubby);
     text-align: center;
+    text-transform: var(--cap);
 }
 
 em {
