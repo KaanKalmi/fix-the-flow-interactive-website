@@ -1,0 +1,33 @@
+ol{
+    list-style-type: circle;
+    max-width: 75ch;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    /* Remove max-height: 100%; */
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5em;
+    margin-top: 2.5em;
+}
+
+.col-one {
+    justify-content: left;
+    width: 45%;
+    padding: .75em;
+}
+  
+.col-two {
+    justify-content: right;
+    width: 45%;
+    padding: .75em;
+}
