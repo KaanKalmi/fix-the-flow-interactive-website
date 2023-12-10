@@ -7,9 +7,15 @@ img {
     display: block;
     margin: auto;
     max-width: 100%;
-    /* Remove max-height: 100%; */
 }
 
+.rounded-img{
+    border-radius: var(--icon-radius);
+}
+
+.smaller-img{
+    width: 70%;
+}
 .flex-container {
     display: flex;
     flex-direction: row;
