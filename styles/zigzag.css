@@ -1,6 +1,9 @@
 ol{
     list-style-type: circle;
     max-width: 75ch;
+    &li{
+        line-height: 1.2em;
+    }
 }
 
 img {
