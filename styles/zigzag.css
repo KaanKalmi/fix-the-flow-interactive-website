@@ -23,20 +23,25 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    margin-left: 5em;
-    margin-top: 2.5em;
+    margin-top: 4.5em;
 }
 
 .col-one {
     justify-content: left;
     width: 45%;
-    padding: .75em;
+    padding: 1.25em;
 }
   
 .col-two {
     justify-content: right;
     width: 45%;
-    padding: .75em;
+    padding: 1.25em;
+}
+
+.full{
+    width: 75%;
+    margin-top: .25em;
+    margin-bottom: 2.75em;
 }
