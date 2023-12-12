@@ -13,6 +13,8 @@ ol{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-color: var(--second-color);
+        border-radius: 2.5em;
     }
     
     
@@ -40,8 +42,9 @@ ol{
 @media screen and (min-width: 768px){
 .hero{
     flex-direction: row;
+    width: 85%;
+    margin: auto;
 }
-
 
 .icon{
     display: flex; 
@@ -50,7 +53,6 @@ ol{
     height: 250px;
     padding: 1em;
 }
-
 }
 
 
