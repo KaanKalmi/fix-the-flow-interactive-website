@@ -67,7 +67,7 @@ nav {
                     color: var(--text-color);
 
                     &.new-user {
-                        color: var(--accent-color);
+                        color: var(--primary-color);
                     }
                 }
             }
@@ -107,7 +107,7 @@ nav {
                 color: var(--text-color);
 
                 &:hover {
-                    color: var(--accent-color);
+                    color: var(--primary-color);
                 }
 
                 &.new-user:hover {
