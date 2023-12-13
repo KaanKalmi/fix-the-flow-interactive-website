@@ -5,10 +5,10 @@ html {
     --bg-color: #272932;
     --text-color: #ecf8f8;
     --primary-color: #9EDEDD;
-    --second-color: #2A5A7D;
+    --second-color: #274248;
     --accent-color: #467FC1;
     --btn-radius: 2.5em;
-    --btn-shadow:#716088;
+    --btn-shadow:#9EDEDD;
     --section-radius: .25em;
     --icon-radius: 3.25em;
     --cap: capitalize;
@@ -39,7 +39,7 @@ p{
     color: var(--second-color);
 }
 em {
-    color: var(--accent-color);
+    color: var(--second-color);
     font-weight: var(--fat);
 }
 
@@ -51,9 +51,9 @@ a{
  &.click-me{
     display: block;
     border-radius: var(--btn-radius);
-    background-color: var(--primary-color);
+    background-color: var(--accent-color);
     color: var(--text-color);
-    border-color: var(--primary-color);
+    border-color: var(--accent-color);
     padding: 0.5em 1.2em 0.5em 1.2em;
     border-width: 0;
     font-weight: var(--chubby);
