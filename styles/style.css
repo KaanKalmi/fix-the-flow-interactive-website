@@ -36,10 +36,10 @@ p{
     font-weight: var(--chubby);
     text-align: center;
     font-size: 1.25em;
-    color: var(--accent-color);
+    color: var(--primary-color);
 }
 em {
-    color: var(--accent-color);
+    color: var(--primary-color);
     font-weight: var(--fat);
 }
 
