@@ -5,11 +5,11 @@
 html {
     --bg-color: #272932;
     --text-color: #ecf8f8;
-    --primary-color: #947eb0;
-    --second-color: #519879;
-    --accent-color: #FB8B24;
+    --primary-color: #9EDEDD;
+    --second-color: #274248;
+    --accent-color: #7251C4;
     --btn-radius: 2.5em;
-    --btn-shadow:#716088;
+    --btn-shadow:#8060d0;
     --section-radius: .25em;
     --icon-radius: 3.25em;
     --cap: capitalize;
