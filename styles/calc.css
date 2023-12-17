@@ -145,8 +145,10 @@ fieldset{
 
 @keyframes shuffle {
     0% {transform: translate(0); filter:opacity(1);}
+    12%{transform: translate(-1em, 1em) filter:opcity(.8);}
     25% {transform: translate(-2em, 2em) rotate(10deg); filter:opacity(.7);}
     50% {transform: translate(-4em, 4em) rotate(20deg); filter:opacity(.5);}
+      62%{transform: translate(-5em, 5em) filter:opcity(.4);}
     75% {transform: translate(-6em, 6em) rotate(30deg); filter:opcity(.2);}
     100% {transform: translate(-8em, 8em) rotate(40deg); filter:opacity(0)}
 }
