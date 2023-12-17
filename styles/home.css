@@ -17,6 +17,7 @@ ol{
         border-radius: var(--section-radius);
         width: 85%;
         padding: 1em;
+        margin: auto;
     }
     
     
