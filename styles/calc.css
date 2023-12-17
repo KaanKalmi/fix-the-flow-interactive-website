@@ -138,18 +138,17 @@ fieldset{
 
 .shuffle{
   animation-name: shuffle;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-out;
   animation-duration:.6s;
   animation-delay: .5s;
-  animation-iteration-count: 1;
 }
 
 @keyframes shuffle {
     0% {transform: translate(0); filter:opacity(1);}
-    25% {transform: translate(-3em, 3em) rotate(10deg); filter:opacity(.75);}
-    50% {transform: translate(-6em, 6em) rotate(20deg); filter:opacity(.5);}
-    75% {transform: translate(-9em, 9em) rotate(30deg); filter:opcity(.25);}
-    100% {transform: translate(-12em, 12em) rotate(40deg); filter:opacity(0)}
+    25% {transform: translate(-2em, 2em) rotate(10deg); filter:opacity(.7);}
+    50% {transform: translate(-4em, 4em) rotate(20deg); filter:opacity(.5);}
+    75% {transform: translate(-6em, 6em) rotate(30deg); filter:opcity(.2);}
+    100% {transform: translate(-8em, 8em) rotate(40deg); filter:opacity(0)}
 }
 
 .hide {
