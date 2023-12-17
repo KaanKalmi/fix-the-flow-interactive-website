@@ -146,10 +146,10 @@ fieldset{
 
 @keyframes shuffle {
     0% {transform: translate(0); filter:opacity(1);}
-    25% {transform: translate(-6em, 6em) rotate(13deg); filter:opacity(.75);}
-    50% {transform: translate(-12em, 12em) rotate(26deg); filter:opacity(.5);}
-    75% {transform: translate(-15em, 15em) rotate(39deg); filter:opcity(.25);}
-    100% {transform: translate(-18em, 18em) rotate(52deg); filter:opacity(0)}
+    25% {transform: translate(-3em, 3em) rotate(10deg); filter:opacity(.75);}
+    50% {transform: translate(-6em, 6em) rotate(20deg); filter:opacity(.5);}
+    75% {transform: translate(-9em, 9em) rotate(30deg); filter:opcity(.25);}
+    100% {transform: translate(-12em, 12em) rotate(40deg); filter:opacity(0)}
 }
 
 .hide {
