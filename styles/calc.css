@@ -94,7 +94,6 @@ main{
     text-align: center;
     height: 25em;
     width: 15em;
-    overflow:hidden;
 }
 fieldset{
     border:0;
@@ -139,21 +138,14 @@ fieldset{
 
 .shuffle{
   animation-name: shuffle;
-  animation-timing-function: ease-out;
+  animation-timing-function: cubic-bezier(.58,-0.06,.59,.52);
   animation-duration:.6s;
   animation-delay: .5s;
 }
 
 @keyframes shuffle {
-    0% {transform: translate(0); filter:opacity(1);}
-    12%{transform: rotate(5deg) translate(-1em, 1em); filter:opacity(.8);}
-    25% {transform: translate(-2em, 2em) rotate(10deg); filter:blur(.2) opacity(.7);}
-      37%{transform: rotate(15deg) translate(-4em, 4em); filter:opacity(.6);}
-    50% {transform: translate(-4em, 4em) rotate(20deg); filter:blur(.4) opacity(.5);}
-      62%{transform: rotate(25deg) translate(-5em, 5em); filter:opacity(.4);}
-    75% {transform: translate(-6em, 6em) rotate(30deg); filter:blur(.6) opacity(.2);}
-      87%{transform: rotate(35deg) translate(-7em, 7em); filter:opacity(0);}
-    100% {transform: translate(-8em, 8em) rotate(40deg); filter:blur(.8) opacity(0)}
+    0% {filter:opacity(1) blur(12px);}
+    100% {filter:opacity(0);}
 }
 
 .hide {
