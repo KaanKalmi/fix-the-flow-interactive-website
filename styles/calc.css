@@ -48,7 +48,7 @@ main{
 
 .background-scorecard{
     display: flex;
-    background-color: #FB8B24;
+    background-color: var(--second-color);
 }
 .scorecard{
     position: relative;
@@ -78,7 +78,7 @@ main{
 .questioncard{
     display: inline-flex;
     flex-direction: row;
-    background-color: #FB8B24;
+    background-color: var(--second-color);
 }
 .card{
     display: flex;
@@ -86,7 +86,7 @@ main{
     justify-content: center;
     position: absolute;
     right: 15%;
-    background-color: var(--second-color);
+    background-color: var(--accent-color);
     border-radius: 1.5em;
     border: 5px solid var(--text-color);
     padding: 1em;

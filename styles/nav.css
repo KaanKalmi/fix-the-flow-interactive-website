@@ -16,8 +16,8 @@ nav {
     .logo {
         position: absolute;
         left: 0;
-        height: 60px;
-        width: 60px;
+        height: 45px;
+        width: 45px;
         margin-left: .25em;
     }
 }
@@ -26,8 +26,8 @@ nav {
     .logo {
         position: absolute;
         left: 0;
-        height: 80px;
-        width: 80px;
+        height: 65px;
+        width: 65px;
         margin-left: 1.25em;
     }
 }
@@ -36,8 +36,8 @@ nav {
     .logo {
         position: absolute;
         left: 0;
-        height: 100px;
-        width: 100px;
+        height: 85px;
+        width: 85px;
         margin-left: 1.75em;
     }
 
@@ -50,7 +50,7 @@ nav {
             list-style: none;
             margin: 0;
             padding: 0;
-            font-size:.85em;
+            font-size:.65em;
             & li {
                 margin-left: 1em;
                 padding: 0;
@@ -78,10 +78,10 @@ nav {
 @media (min-width: 768px) and (max-width: 1023px) {
     nav {
         padding: 1.5em;
-
         & ul {
             & li {
                 margin-left: 1.5em;
+                font-size: 1.4em;
             }
         }
     }
@@ -96,6 +96,7 @@ nav {
             & li {
                 margin-right: .75em;
                 padding: 0;
+                font-size: 1.4em;
             }
 
             & li:nth-child(3) {

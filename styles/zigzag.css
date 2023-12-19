@@ -16,9 +16,10 @@ img {
     border-radius: var(--icon-radius);
 }
 
-.smaller-img{
+.small-img{
     width: 70%;
 }
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -30,12 +31,24 @@ img {
 
 .col-one {
     justify-content: left;
-    width: 45%;
+    width: 35%;
     padding: 1.25em;
 }
   
 .col-two {
     justify-content: right;
-    width: 45%;
+    width: 55%;
+    padding: 1.25em;
+}
+
+.col-one-big{
+    justify-content: left;
+    width: 50%;
+    padding: 1.25em;  
+}
+
+.col-two-small{
+    justify-content: right;
+    width: 40%;
     padding: 1.25em;
 }

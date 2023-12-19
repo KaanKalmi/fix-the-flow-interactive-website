@@ -15,6 +15,7 @@ ol{
         justify-content: center;
         background-color: var(--second-color);
         border-radius: var(--section-radius);
+        box-shadow: 0px 0px 24px #2742489d;
         width: 85%;
         padding: 1em;
         margin: auto;

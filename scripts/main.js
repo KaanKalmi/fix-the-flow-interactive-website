@@ -88,3 +88,9 @@ radioCard5.forEach(radioElement => { // for each radio button
    })
 }
 );
+
+
+let answer = document.querySelectorAll(input)
+console.log(answer);
+
+
