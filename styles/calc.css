@@ -25,18 +25,29 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: 'poppins', sans-serif;
+    font-size: 1.1em;
 }
 
-h1, h3 {
+h3 {
     font-family: 'poppins', sans-serif;
     font-weight: var(--chubby);
     text-align: center;
     text-transform: var(--cap);
+    font-size: 2em;
 }
 
+p{
+    font-family: 'poppins', sans-serif;
+    font-weight: var(--chubby);
+    text-align: center;
+    text-transform: var(--cap);
+    font-size: 1.5em;
+
+}
 em {
     color: var(--primary-color);
     font-weight: var(--fat);
+    font-size: 2em;
 }
 
 main{
@@ -46,51 +57,42 @@ main{
     margin-bottom:2em;
 }
 
-.background-scorecard{
+section{
     display: flex;
-    background-color: var(--second-color);
 }
 .scorecard{
-    position: relative;
-    left: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    place-items: center;
     background-color: var(--second-color);
     border-radius: 1.5em;
-    border: 5px solid var(--text-color);
+    box-shadow: 0 0 24px 12px #274248ad;
     padding: 1em;
-    margin: 1em;
+    margin: auto;
     text-align: center;
-    height: 25em;
-    width: 15em;
+    height: 650px;
+    width: 550px;
 
     & .icon{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height:125px;
-        width: 120px;
+        height:250px;
+        width: 250px;
+        margin: auto;
     }
 }
 
-.questioncard{
-    display: inline-flex;
-    flex-direction: row;
-    background-color: var(--second-color);
-}
 .card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    right: 15%;
-    background-color: var(--accent-color);
+    right: 20%;
+    background-color: var(--second-color);
     border-radius: 1.5em;
-    border: 5px solid var(--text-color);
+    box-shadow: 0px 0px 24px #2742489d;
     padding: 1em;
-    margin: 1em;
+    margin: auto;
     text-align: center;
     height: 25em;
     width: 15em;
