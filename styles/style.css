@@ -71,3 +71,16 @@ a{
 }
 }
 
+
+.click-me{
+    display: block;
+    border-radius: var(--btn-radius);
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    border-color: var(--accent-color);
+    padding: 0.5em 1.2em 0.5em 1.2em;
+    margin: auto;
+    border-width: 0;
+    font-weight: var(--chubby);
+    box-shadow: 0px 0px 5px var(--btn-shadow);
+}
