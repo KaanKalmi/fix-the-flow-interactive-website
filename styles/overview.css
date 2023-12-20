@@ -26,6 +26,18 @@
     box-shadow: 0px 0px 24px #2742489d;
 }
 
+.big{
+    width: 70%;
+    &ol{
+        line-height: 1.4em;
+        list-style-type: decimal;
+
+        &li{
+           margin: 2em;
+        }
+    }
+}
+
 .small-img{
     display: block;
     width: 125px;

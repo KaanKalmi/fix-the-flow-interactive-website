@@ -89,8 +89,44 @@ radioCard5.forEach(radioElement => { // for each radio button
 }
 );
 
+let inputs = document.getElementsByTagName('input');
+for(let i = 0; i < inputs.length; i++) {
+    inputs[i].addEventListener('click', function() {
+   let input1 = document.getElementById('answer1-1').value;
+   let input2 = document.getElementById('answer1-2').value;
+   let input3 = document.getElementById('answer1-3').value;
+   let input4 = document.getElementById('answer1-4').value;
+   let input5 = document.getElementById('answer1-5').value;
+   let input6 = document.getElementById('answer2-1').value;
+   let input7 = document.getElementById('answer2-2').value;
+   let input8 = document.getElementById('answer2-3').value;
+   let input9 = document.getElementById('answer2-4').value;
+   let input10 = document.getElementById('answer2-5').value;
+   let input11 = document.getElementById('answer3-1').value;
+   let input12 = document.getElementById('answer3-2').value;
+   let input13 = document.getElementById('answer3-3').value;
+   let input14 = document.getElementById('answer3-4').value;
+   let input15 = document.getElementById('answer3-5').value;
+   let input16 = document.getElementById('answer4-1').value;
+   let input17 = document.getElementById('answer4-2').value;
+   let input18 = document.getElementById('answer4-3').value;
+   let input19 = document.getElementById('answer4-4').value;
+   let input20 = document.getElementById('answer4-5').value;
+   let input21 = document.getElementById('answer5-1').value;
+   let input22 = document.getElementById('answer5-2').value;
+   let input23 = document.getElementById('answer5-3').value;
+   let input24 = document.getElementById('answer5-4').value;
+   let input25 = document.getElementById('answer5-5').value;
 
-let answer = document.querySelectorAll(input)
-console.log(answer);
+   let result = 
+  (Number(input1) + Number(input2) + Number(input3) + Number(input4) + Number(input5)
+   + Number(input6) + Number(input7) + Number(input8) + Number(input9) + Number(input10) 
+   + Number(input11) + Number(input12) + Number(input13) + Number(input14) + Number(input15)
+   + Number(input16) + Number(input17) + Number(input18) + Number(input19) + Number(input20)
+   + Number(input21) + Number(input22) + Number(input23) + Number(input24) + Number(input25))
+   / 5;
 
-
+   // Update the score element
+   document.getElementById('score').innerText = 'The score is: ' + result;
+});
+}
