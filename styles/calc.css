@@ -68,11 +68,11 @@ section{
     background-color: var(--second-color);
     border-radius: 1.5em;
     box-shadow: 0 0 24px 12px #274248ad;
-    padding: 1em;
+    padding: 1.2em;
     margin: auto;
     text-align: center;
-    height: 650px;
-    width: 550px;
+    height: 400px;
+    width: 450px;
 
     & .icon{
         display: flex;
